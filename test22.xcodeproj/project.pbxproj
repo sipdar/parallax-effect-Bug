@@ -22,7 +22,6 @@
 		A3F60BA118BDA43E00A824F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3F60B9F18BDA43E00A824F3 /* InfoPlist.strings */; };
 		A3F60BA318BDA43E00A824F3 /* test22Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F60BA218BDA43E00A824F3 /* test22Tests.m */; };
 		A3F60BAE18BDA71000A824F3 /* testcell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F60BAD18BDA71000A824F3 /* testcell.m */; };
-		A3F60BB218BDD95A00A824F3 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F60BB018BDD95A00A824F3 /* Reveal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +56,6 @@
 		A3F60BA218BDA43E00A824F3 /* test22Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test22Tests.m; sourceTree = "<group>"; };
 		A3F60BAC18BDA71000A824F3 /* testcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testcell.h; sourceTree = "<group>"; };
 		A3F60BAD18BDA71000A824F3 /* testcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testcell.m; sourceTree = "<group>"; };
-		A3F60BB018BDD95A00A824F3 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +65,6 @@
 			files = (
 				A3F60B7A18BDA43D00A824F3 /* CoreGraphics.framework in Frameworks */,
 				A3F60B7C18BDA43D00A824F3 /* UIKit.framework in Frameworks */,
-				A3F60BB218BDD95A00A824F3 /* Reveal.framework in Frameworks */,
 				A3F60B7818BDA43D00A824F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +85,6 @@
 		A3F60B6B18BDA43D00A824F3 = {
 			isa = PBXGroup;
 			children = (
-				A3F60BB018BDD95A00A824F3 /* Reveal.framework */,
 				A3F60B7D18BDA43D00A824F3 /* test22 */,
 				A3F60B9C18BDA43E00A824F3 /* test22Tests */,
 				A3F60B7618BDA43D00A824F3 /* Frameworks */,
@@ -486,6 +482,7 @@
 				A3F60BA818BDA43E00A824F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3F60BA918BDA43E00A824F3 /* Build configuration list for PBXNativeTarget "test22Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +491,7 @@
 				A3F60BAB18BDA43E00A824F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
